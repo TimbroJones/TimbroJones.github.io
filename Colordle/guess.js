@@ -24,13 +24,13 @@ function setBackground() {
 }
 
 function wildGuess() {
-    document.getElementById("content").innerHTML = "yess"
+    document.getElementById("content").innerHTML = "yesfs"
     var red = document.getElementById("input_red").value
     document.getElementById("content").innerHTML = "1"
     var green = document.getElementById("input_green").value
     document.getElementById("content").innerHTML = "2"
     var blue = document.getElementById("input_blue").value
-    document.getElementById("content").innerHTML = "3"
+    document.getElementById("content").innerHTML = "5"
 
     if (rgb(red,green,blue) == rgbs){
         document.getElementById("content").innerHTML = "Bingo Bongo"
