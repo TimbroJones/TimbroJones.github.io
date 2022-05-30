@@ -29,4 +29,5 @@ function wildGuess() {
         document.getElementById("content").innerHTML = "Wop wop"
     }
 
+    document.getElementById("content").innerHTML = "lol"
 }
