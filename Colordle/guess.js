@@ -32,7 +32,7 @@ function wildGuess() {
     var blue = document.getElementById("input_blue").value
     document.getElementById("content").innerHTML = "3"
 
-    if (rgb(red, green, blue) == rgbs){
+    if (rgb(red,green,blue) == rgbs){
         document.getElementById("content").innerHTML = "Bingo Bongo"
     } else {
         document.getElementById("content").innerHTML = "Wop wop"
