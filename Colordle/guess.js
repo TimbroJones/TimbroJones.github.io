@@ -24,7 +24,7 @@ function setBackground() {
 }
 
 function wildGuess() {
-    document.getElementById("content").innerHTML = "yes"
+    document.getElementById("content").innerHTML = "yess"
     var red = document.getElementById("input_red").value
     document.getElementById("content").innerHTML = "1"
     var green = document.getElementById("input_green").value
