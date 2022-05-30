@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="guess.js"></script>
+	</head>
+	<body>
+        <div>
+            <input name="red" id="input_red" type="number" min="0" max="255" step="1" value="0" />
+            <input name="green" id="input_green" type="number" min="0" max="255" step="1" value="0" />
+            <input name="blue" id="input_blue" type="number" min="0" max="255" step="1" value="0" />
+        </div>
+
+		<button class="button" onclick="wildGuess()">Take a wild guess</button>
+
+		<!-- generated idea text -->
+		<div class = "prompt" id = "content">
+			<p>. . .</p>
+		</div>
+	</body>
+</html>
