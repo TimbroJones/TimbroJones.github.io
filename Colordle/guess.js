@@ -20,8 +20,11 @@ function setBackground() {
 function wildGuess() {
     document.getElementById("content").innerHTML = "yes"
     var red = document.getElementById("input_red").value
+    document.getElementById("content").innerHTML = "1"
     var green = document.getElementById("input_green").value
+    document.getElementById("content").innerHTML = "2"
     var blue = document.getElementById("input_blue").value
+    document.getElementById("content").innerHTML = "3"
 
     if (rgb(red, green, blue) == rgbs){
         document.getElementById("content").innerHTML = "Bingo Bongo"
