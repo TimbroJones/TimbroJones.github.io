@@ -5,15 +5,21 @@ let b = 0;
 let rgbs = rgb(r,g,b);
 
 window.onload = function onLoad() {
+    document.getElementById("content").innerHTML = "onload"
     setBackground();
 }
 
 function setBackground() {
+    document.getElementById("content").innerHTML = "r"
     r = Math.random() * 256;
+    document.getElementById("content").innerHTML = "g"
     g = Math.random() * 256;
+    document.getElementById("content").innerHTML = "b"
     b = Math.random() * 256;
 
+    document.getElementById("content").innerHTML = "rgb"
     rgbs = rgb(r,g,b);
+    document.getElementById("content").innerHTML = "background"
     document.body.style.backgroundColor = rgbs;
 }
 
