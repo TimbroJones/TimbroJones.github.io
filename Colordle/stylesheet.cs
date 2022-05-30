@@ -1,5 +1,3 @@
- @font-face { font-family: opensans; src: url('Resources/OpenSans-Regular.ttf');}
-
 body {
 	background-color: #222222;
 }
