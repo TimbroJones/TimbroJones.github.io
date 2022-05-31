@@ -4,7 +4,7 @@ let g = 0;
 let b = 0;
 let rgbs = `rgb(${r},${g},${b})`;
 
-window.onload = function onLoad() {
+function onLoad() {
     document.getElementById("content").innerHTML = "onload"
     setBackground();
 }
@@ -36,3 +36,5 @@ function wildGuess() {
 
     document.getElementById("content").innerHTML = "lol"
 }
+
+window.onload = onload;
