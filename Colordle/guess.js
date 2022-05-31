@@ -33,8 +33,6 @@ function wildGuess() {
     } else {
         document.getElementById("content").innerHTML = "Wop wop"
     }
-
-    document.getElementById("content").innerHTML = "lol"
 }
 
 window.onload = onload;
